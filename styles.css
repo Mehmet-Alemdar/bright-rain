@@ -1,0 +1,71 @@
+body {
+  background-color: #151515;
+}
+.cloud {
+  width: 130px;
+  height: 120px;
+}
+.container {
+  position: fixed;
+  display: inline-block;
+  width: 50%;
+  height: 80%;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  background-color: #000011;
+}
+
+.lamp-img {
+  margin-top: 110px;
+  display: block;
+  position: absolute;
+  width: 125px;
+}
+
+.div-lamp {
+  width: 25px;
+  height: 25px;
+  background-color: yellow;
+  border-radius: 20px;
+  display: block;
+  position: absolute;
+  margin-top: 115px;
+  margin-left: 8px;
+  transition: 2s;
+}
+
+.div-lamp-return {
+  transition: 2s;
+  background-color: yellow;
+  box-shadow: 0 0 30px yellow, 0 0 30px yellow, 0 0 10px yellow;
+}
+
+.drop {
+  width: 10px;
+  position: absolute;
+  transition: 2s;
+  border-radius: 3px;
+}
+
+.drop1 {
+  margin-left: -50px;
+}
+.drop2 {
+  margin-left: -40px;
+}
+
+.drop3 {
+  margin-left: -30px;
+}
+
+.drop4 {
+  margin-left: 0px;
+}
+.drop5 {
+  margin-left: 15px;
+}
+.drop6 {
+  margin-left: 25px;
+}
